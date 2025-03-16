@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="header-content">
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#sobre-mim">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contatos">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <header class="header-container">
+        <div class="header-principal">
+            <h1 class="typing">JUAN PANDELLIS</h1>
+            <h2 class="sub-titulo">Desenvolvedor Fullstack</h2>
+            <p>Aqui nesse portfólio é onde a criatividade e código se encontram,<br>
+                Tenho mais projetos como esse aqui no meu <a href="https://github.com/JuanPandellis99" target="_blank" >GitHub</a> !<br>
+                Agora é só rolar pra baixo para saber mais sobre mim.
+                
+            </p>
+            
+        </div>
+    </header>
+
+    <section id="sobre-mim" class="sobre-mim">
+        <div>
+            <h2 id="sobre-titulo" class="sobre-titulo"> Sobre Mim <img src="images/slash.png" alt="" class="cpu"></h2>
+            <div class="sobre-caixa">
+                <p class="sobre-paragrafo">Me chamo Juan, tenho 22 anos e sou um amante da tecnologia. Sou Bastante dedicado com habilidades
+                    em HTML, CSS, Java Script, Python, SQL, React,
+                    Conhecimentos em Redes, Informática e Hardwares. Busco crescimento na área de desenvolvimento,
+                    demonstrando vontade de aprender e evoluir constantemente.<br> Sou proativo, organizado e capaz de
+                    lidar com desafios. </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+            <div class="projetos-card">
+                <img src="images/vercel.png" alt="Projeto 1"  class="projetos-imagem">
+                <div class="caixa-texto-projeto">
+                    <h3 class="info-projetos">Previsão do Tempo</h3>
+                    <p class="paragrafo-projetos">Site que forneçe Previsão do tempo de maneira simples e com design
+                        moderno.</p>
+                        <p class="paragrafo-projetos2"><a href="https://previs-o-tempo-react-ptneexvhj-juan-pandellis-projects.vercel.app/" target="_blank">Veja aqui</a></p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="images/commerce.png" alt="Projeto 2"  class="projetos-imagem">
+                <div class="caixa-texto-projeto">
+                    <h3 class="info-projetos">Loja de Hardwares</h3>
+                    <p class="paragrafo-projetos">Um projeto que simula uma loja de hardwares com design limpo, moderno e
+                        funcional.</p>
+                        <p class="paragrafo-projetos2"><a href="https://juanpandellis99.github.io/E-commerce-tech/" target="_blank">Veja aqui</a></p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="images/Captura de tela 2025-03-15 201750.png" alt="Projeto 3"  class="projetos-imagem">
+                <div class="caixa-texto-projeto">
+                    <h3 class="info-projetos">Lista de tarefas</h3>
+                    <p class="paragrafo-projetos">Projeto em react+vite de uma lista de tarefas funcional.
+                    </p>
+                    <p class="paragrafo-projetos2"><a href="https://juanpandellis99.github.io/list-react-vite-2/" target="_blank">Veja aqui</a></p>
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato </h2>
+        <form class="form-contato" id="formulario" onsubmit="enviarWhats(event)">
+            <div class="grupo-form">
+                <input placeholder="Nome" class="campo-form" id="nome">
+            </div>
+
+            <div class="grupo-form">
+                <textarea placeholder="Digite sua Mensagem" class="campo-form" id="mensagem" rows="6"></textarea>
+            </div>
+
+
+            <button type="submit" class="btn-form">Enviar Whatsapp</button>
+
+        </form>
+
+        <h3 class="logo-footer">Redes<span class="cor-h3">Socias</span></h3>
+        <div class="footer-content">
+            <a href="https://www.linkedin.com/in/juan-pandellis/" target="_blank"><img src="/images/linkedin.png" alt=""></a>
+            <a href="https://github.com/" target="_blank"><img src="/images/github.png" alt=""></a>
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
